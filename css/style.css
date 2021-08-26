@@ -1056,14 +1056,18 @@ section {
 
 .actioninfo{
   padding-top: 150px;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
   padding-left: 100px;
   padding-right: 100px;
 }
 
 .infotitle{
+  text-align: center;
+  background: transparent;
+  font-size: 45px;
   font-weight: bold;
-  font-size: xx-large;
+  color: #111;
+  margin-bottom: 8px;
 }
 
 .infoimg1{
@@ -1084,7 +1088,7 @@ section {
 
 .infoimg3{
   width: 100%;
-  margin-left: auto;
+  margin-left: 15px;
   margin-right: auto;
   margin-top: 15px;
   display: block;
@@ -1112,6 +1116,32 @@ section {
   vertical-align: top
 }
 
+#newsstart{
+  background-color: rgb(192, 211, 192);
+}
+
+.newsonline{
+  padding-top: 80px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.newsimg1{
+  width: 100%;
+  padding-top: 30px;
+}
+
+.newsimg2{
+  width: 100%;
+  padding-top: 30px;
+}
+
+.newsimg3{
+  width: 100%;
+  padding-top: 30px;
+}
+
 /* Extra Section
 --------------------------------*/
 #extralink{
@@ -1133,6 +1163,7 @@ section {
 
 .linktoother{
   font-size: 25px;
+  color: seagreen;
 }
 
 
